@@ -1,0 +1,36 @@
+<%- include("partials/header") %>
+
+    <section id="home" class="home divOuter">
+
+
+
+       
+        <div class="container">
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+            <h1 class="text-light">Home</h1>
+            <p class="para-text text-light fs-3">
+                <%= startingContent %>
+            </p>
+            <% userPosts.forEach(function(element) { %>
+                <div class="bg-light bgCustom">
+                    <h2 class="text-dark">
+                        <%= element.title %>
+                    </h2>
+                    <p class="para-text text-dark">
+                        <%= element.content.substring(0, 100) + "..." %> <a href="/posts/<%=element._id%>">Read More</a>
+                    </p>
+                    <% }) %>
+                </div>
+        </div>
+    </section>
+
+    <%- include("partials/footer") %>
