@@ -16,4 +16,4 @@ Here, In this repository, we have tried to create a web application for open blo
 
 ## How to run?
 
-To run, navigate through folders and open terminal and then type this command "npm run dev" or, "nodemon app.js". Or, If you are just a user then, this app is deployed on Heroku. You can visit this app by clicking <a href="https://mighty-sands-43324.herokuapp.com" target="_blank">Here!</a>
+To run, navigate through folders and open terminal and then type this command "npm run dev" or, "nodemon app.js".
